@@ -1,0 +1,9 @@
+- platform: rpi_rf
+  gpio: 17
+  switches:
+    switch_1:
+      code_on: 16408079
+      code_off: 16408078
+    switch_2:
+      code_on: 16408077
+      code_off: 16408076

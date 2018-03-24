@@ -1,0 +1,5 @@
+switches:
+  name: Switches
+  entities:
+    - switch.switch_1
+    - switch.switch_2
