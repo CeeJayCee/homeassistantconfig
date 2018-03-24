@@ -3,3 +3,4 @@ switches:
   entities:
     - switch.switch_1
     - switch.switch_2
+    - switch.tp_link_plug
