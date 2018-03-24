@@ -1,6 +1,6 @@
 switches:
   name: Switches
   entities:
-    - switch.switch_1
+    - switch.hall_lights
     - switch.switch_2
-    - switch.tp_link_plug
+    - switch.garden_lights

@@ -9,7 +9,7 @@
 - platform: rpi_rf
   gpio: 17
   switches:
-    switch_1:
+    Hall Lights:
       code_on: 16408079
       code_off: 16408078
     switch_2:
@@ -21,3 +21,4 @@
 # TP-Link Sockets
 - platform: tplink
   host: 192.168.0.19
+  name: Garden Lights
