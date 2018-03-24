@@ -13,9 +13,6 @@ homeassistant:
   # Customization file
   customize: !include customize.yaml
 
-# Show links to resources in log and frontend
-#introduction:
-
 # Enables the frontend
 frontend:
 
@@ -55,10 +52,6 @@ map:
 # Track the sun
 sun:
 
-# Weather prediction
-sensor:
-  - platform: yr
-
 # Text to speech
 tts:
   - platform: google
@@ -70,11 +63,6 @@ ios:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
-
 switch: !include switches.yaml
-#  - platform: rpi_rf
-#    gpio: 17
-#    switches:
-#      switch_1:
-#        code_on: 16408079
-#        code_off: 16408078
+sensor: !include sensors.yaml
+

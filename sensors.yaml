@@ -1,0 +1,18 @@
+#################################################################################################
+#
+# Sensors
+#
+
+
+#################################################################################################
+# Weather Underground
+- platform: wunderground
+  api_key: d8bb7894bfaa8297
+  pws_id: IEDINBUR91 
+  monitored_conditions:
+    - alerts
+    - wind_gust_mph
+    - temperature_string
+    - feelslike_c
+
+
