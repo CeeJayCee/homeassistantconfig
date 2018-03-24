@@ -12,7 +12,7 @@
   monitored_conditions:
     - alerts
     - wind_gust_mph
-    - temperature_string
+    - temp_c
     - feelslike_c
 
 
