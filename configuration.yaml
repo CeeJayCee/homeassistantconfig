@@ -66,3 +66,8 @@ script: !include scripts.yaml
 switch: !include switches.yaml
 sensor: !include sensors.yaml
 
+input_datetime:
+  bedtime:
+    name: Bedtime
+    has_date: false
+    has_time: true

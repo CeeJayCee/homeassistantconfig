@@ -15,4 +15,6 @@
     - temp_c
     - feelslike_c
 
-
+- platform: time_date
+  display_options: 
+    - 'time'

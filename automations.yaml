@@ -19,8 +19,8 @@
 
 - alias: Turn off lights at bedtime
   trigger:
-    platform: time
-    at: '23:00:00'
+    platform: template
+    value_template: "{{ states.sensor.time.state == (states.input_datetime.bedtime.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   action:
     service: switch.turn_off
     entity_id:
