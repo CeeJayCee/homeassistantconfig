@@ -12,9 +12,12 @@
     Hall Lights:
       code_on: 16408079
       code_off: 16408078
+      signal_repetitions: 20
+
     switch_2:
       code_on: 16408077
       code_off: 16408076
+      signal_repetitions: 20
 
 
 #################################################################################################
