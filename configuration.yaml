@@ -71,3 +71,8 @@ input_datetime:
     name: Bedtime
     has_date: false
     has_time: true
+
+input_boolean:
+  garden_lights_auto_on:
+    name: Should the Garden Lights come on automatically?
+    icon: mdi:pinetree
